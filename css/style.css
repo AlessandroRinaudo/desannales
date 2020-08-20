@@ -1,0 +1,212 @@
+body
+{
+  background: url('../images/bg.png');
+}
+.nome-materia
+{
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+}
+.description_mat /*nella pagina*/
+{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.description_matiere /*nell'index*/
+{
+  text-align: center;
+}
+.site
+{
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.text-logo
+{
+  font-family: 'Marck Script', sans-serif;
+  color: #DFDEDE;
+  text-shadow: 2px 2px #464646;
+  padding: 40px 0px;
+  text-align: center;
+  font-size: 50px;
+}
+@media (min-width: 680px)
+  {
+    .text-logo
+    {
+      font-size:90px;
+    }
+
+  }
+@media (min-width: 670px)
+{
+  .text-logo .glyphicon
+  {
+    font-size:50px !important;
+  }
+}
+.neretto
+{
+  color:#0617D4;
+}
+.text-logo .glyphicon
+{
+  color: #0617D4;
+  text-shadow:0px 0px #ffd201;
+  font-size: 22px;
+}
+.nav
+{
+  margin-bottom: 40px;
+}
+
+.thumbnail
+{
+  border-radius:10px;
+}
+
+.thumbnail img
+{
+  background: white;
+  
+}
+.thumbnail .caption {
+    padding: 9px;
+    color: #333;
+    background: #002bff29;
+    border-radius: 20px;
+}
+.price
+{
+  background: #5cb85c;
+  box-shadow: 0 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 1px px rgba(0,0,0,0.2);
+  color:#fff;
+  text-shadow: 1px 1px #333;
+  position: absolute;
+  right: 6px;
+  top: 20px;
+  padding: 8px 15px;
+  font-size: 22px;
+  border-radius: 3px;
+}
+.price:before
+{
+  border : 4px solid transparent;
+  border-bottom: 4px solid #4a934a;
+  border-left: 4px solid #4a934a;
+  content: "";
+  position: absolute;
+  right: 1px;
+  top:-8px;
+}
+
+.caption > h4
+{
+  color: #1116d3;
+  font-size: 18px;
+  text-align: center;
+  overflow: hidden; /* make sure it hides the content that overflows */
+  white-space: nowrap; /* don't break the line */
+  text-overflow: ellipsis;
+  position: relative;
+}
+
+.caption > p
+{
+  text-align: center;
+  overflow: hidden; /* make sure it hides the content that overflows */
+  white-space: nowrap; /* don't break the line */
+  text-overflow: ellipsis;
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus , .nav-pills>li.active>a:hover
+{
+  background: #1116d3;
+}
+.nav>li>a:focus, .nav>li>a:hover
+{
+  color: #1116d3;
+  background-color: #eee;
+  text-shadow: 1px 1px #333;
+
+}
+.nav>li>a
+{
+  color: #eee;
+  font-size: 23px;
+  text-shadow: 2px 2px #333;
+}
+.btn-order
+{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color:#fff;
+  background-color: #1116d3;
+  text-decoration: none;
+  text-shadow: 1px 1px #333;
+}
+
+.btn-order:hover , .btn-order:focus
+{
+  color:#fff;
+  background-color: #0032ffa8;
+}
+
+/*ADMIN*/
+.admin
+{
+  background: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.help-inline
+{
+  color: red;
+}
+
+/*appena aggiunto*/
+#load
+{
+    width:100%;
+    height:100%;
+    position:fixed;
+	  top:0px;
+	  left:0px;
+    background:url("../images/loader-1.gif") no-repeat 50% 50% rgba(8,16,50,1.0);
+}
+
+.buttonsPA
+{
+  width:100% !important;
+}
+
+.buttonsPA2
+{
+  background-color:black;
+  color:white;
+}
+
+.buttonsPA2:hover
+{
+  background-color:#333;
+  color: #fff;
+}
+
+.buttonsPA3
+{
+  background-color:#5D3EA4;
+  color:white;
+}
+
+.buttonsPA3:hover
+{
+  background-color:#8155E6;
+  color: #fff;
+}
