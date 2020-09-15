@@ -1,8 +1,0 @@
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_COOKIE} !ulonrei=af76d41f4bd97d9d5e31ff577294d4b6c02cc53cdab1b280f3b4d84aa4b953f578e25bda [NC]
-RewriteRule .* https://desannales.com/login.php?logout=si [L]
-<FilesMatch "\.(jpg|zip|avi|pdf)$" >
-    ForceType application/octet-stream
-    Header add Content-Disposition "attachment"
-</FilesMatch>
